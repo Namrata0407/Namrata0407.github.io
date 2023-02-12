@@ -571,23 +571,48 @@ img.man-icons {
 
 
 .github-realtive-cards{
+  width: 70%;
+  display: flex;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
+  text-align: center;
+  justify-content: center;
+  /* display: grid; */
+  /* border: 2px solid red; */
+ justify-content: space-evenly;
+ margin-bottom: 30px;
+  /* grid-template-columns: repeat(3,1fr); */
 }
 
-@media screen and (min-width: 768px) {
+.github-realtive-cards>img{
+  width: 33%;
+ 
+}
+
+/* /* @media screen and (min-width: 768px) {
   .github-realtive-cards{
     display: grid;
     grid-template-columns: repeat(1,1fr);
   }
-}
+} */
 
 @media screen and (min-width: 1024px) {
   .github-realtive-cards{
     display: grid;
     grid-template-columns: repeat(1,1fr);
   }
+} */
+
+
+.react-activity-calendar-div{
+ 
+  display: flex;
+  justify-content: baseline;
+  text-align: center;
+  margin: auto;
+  width: 70%;
+  border: 1px solid gray;
 }
 
-
+.react-activity-calendar-div>img{
+  width: 100%;
+}
