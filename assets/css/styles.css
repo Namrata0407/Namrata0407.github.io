@@ -595,12 +595,12 @@ img.man-icons {
   }
 } */
 
-@media screen and (min-width: 1024px) {
+/* @media screen and (min-width: 1024px) {
   .github-realtive-cards{
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(3,1fr);
   }
-} */
+}  */
 
 
 .react-activity-calendar-div{
