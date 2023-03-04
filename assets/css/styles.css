@@ -86,6 +86,7 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+  /* border: 20px solid red; */
 }
 
 /*===== CLASS CSS ===== */
@@ -253,13 +254,15 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  top: 150px;
+  top: 130px;
   width: 65%;
+  /* border: 10px solid blue; */
 }
 .home-img > img {
   width: 400px;
   height: 450px;
   margin-left: 30px;
+  border: 10px solid rgb(0, 255, 26);
 }
 
 /*BUTTONS*/
@@ -520,6 +523,7 @@ img.man-icons {
     margin-right: var(--mb-4);
   }
   .home-img {
+   
     width: 39%;
     max-width: 420px;
     bottom: 15%;
@@ -588,19 +592,7 @@ img.man-icons {
  
 }
 
-/* /* @media screen and (min-width: 768px) {
-  .github-realtive-cards{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-  }
-} */
 
-/* @media screen and (min-width: 1024px) {
-  .github-realtive-cards{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-  }
-}  */
 
 
 .react-activity-calendar-div{
@@ -615,4 +607,80 @@ img.man-icons {
 
 .react-activity-calendar-div>img{
   width: 100%;
+}
+
+@media screen and (min-width:250px) and ( max-width: 768px) {
+  .home-img {
+   
+    width: 39%;
+    max-width: 420px;
+    bottom: 15%;
+
+    /* border: 12px solid purple; */
+  }
+/* #profile>img{
+  margin-top: 30%;
+} */
+  #home{
+    display: flex;
+   flex-direction: column;
+    /* border: 12px solid rgb(128, 0, 0); */
+    height: 800px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+ .home-data{
+  /* border: 20px solid green; */
+  text-align: center;
+ }
+
+ #profile>img{
+  margin-top: 390px;
+  width: 100%;
+
+ }
+ #profile{
+  /* margin: auto; */
+  width: 100%;
+  margin-top: 310px;
+ 
+ }
+ #home>div{
+  width: 100%;
+ }
+
+ #home> #profile >.home-img{
+  width:100%;
+  
+ }
+}
+
+@media screen and (min-width:438px) and ( max-width: 768px) {
+  #profile>img{
+     margin-right: 15%; 
+    /* margin-left: 15%; */
+    /* margin:auto */
+   }
+}
+
+@media screen and (min-width:250px) and ( max-width: 780px){
+  .github-realtive-cards{
+    display: flex;
+    flex-direction: column;
+  }
+  .github-realtive-cards>img {
+    width: 100%;
+  }
+  .react-activity-calendar-div{
+    width: 100%;
+  }
+}
+
+.react-activity-calendar-div{
+  width: 70%;
+}
+.github-realtive-cards {
+  width: 70%;
 }
