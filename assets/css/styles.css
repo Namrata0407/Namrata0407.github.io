@@ -595,7 +595,7 @@ img.man-icons {
 
 
 
-.react-activity-calendar-div{
+.react-activity-calendar{
  
   display: flex;
   justify-content: baseline;
@@ -605,9 +605,9 @@ img.man-icons {
   border: 1px solid gray;
 }
 
-.react-activity-calendar-div>img{
+/* react-activity-calendar>img{
   width: 100%;
-}
+} */
 
 @media screen and (min-width:250px) and ( max-width: 768px) {
   .home-img {
@@ -673,12 +673,14 @@ img.man-icons {
   .github-realtive-cards>img {
     width: 100%;
   }
-  .react-activity-calendar-div{
+  .react-activity-calendar{
     width: 100%;
   }
 }
 
-.react-activity-calendar-div{
+.react-activity-calendar{
+  text-align: center;
+  margin: auto;
   width: 70%;
 }
 .github-realtive-cards {
