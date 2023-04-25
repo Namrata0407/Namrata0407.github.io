@@ -454,18 +454,27 @@ img.man-icons {
 
 /* ===== FOOTER =====*/
 .footer {
+
   background-color: var(--second-color);
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);
   padding: 3.5rem 0;
+  /* border: 4px solid red; */
+ 
 }
 .footer-title {
   font-size: 2rem;
   margin-bottom: var(--mb-4);
+  /* border: 4px solid rgb(36, 226, 15); */
 }
 .footer-social {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
   margin-bottom: var(--mb-4);
+  /* border: 4px solid rgb(203, 213, 14); */
 }
 .footer-icon {
   font-size: 1rem;
@@ -601,7 +610,7 @@ img.man-icons {
   justify-content: baseline;
   text-align: center;
   margin: auto;
-  width: 70%;
+  width: 100%;
   border: 1px solid gray;
 }
 
@@ -655,6 +664,12 @@ img.man-icons {
   width:100%;
   
  }
+
+ .footer-social{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 15px;
+ }
 }
 
 @media screen and (min-width:438px) and ( max-width: 768px) {
@@ -685,4 +700,18 @@ img.man-icons {
 }
 .github-realtive-cards {
   width: 70%;
+}
+
+@media screen and (min-width:200px) and ( max-width: 350px){
+  .footer-social{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+   }
+   .footer {
+   /* margin-left: 20px; */
+   width: 116%;
+  }
+  
+ 
 }
