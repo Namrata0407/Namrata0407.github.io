@@ -1,495 +1,457 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="./assets/img/h.png" />
-    <link rel="stylesheet" href="assets/css/styles.css" />
 
-    <!-- =====BOX ICONS===== -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <!--===== SCROLL REVEAL =====-->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <title>Namrata Awasthi</title>
-  </head>
-  <body>
-    <!--===== HEADER =====-->
-    <header class="l-header">
-      <nav class="nav bd-grid">
-        <div>
-          <a href="#home" class="nav-logo"
-            >
-            <p class="myname">𝐢𝐚𝐦𝐧𝐚𝐦𝐫𝐚𝐭𝐚𝐚𝐰𝐚𝐬𝐭𝐡𝐢</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="./assets/img/h.png" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- =====BOX ICONS===== -->
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Namrata Awasthi</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#home" class="nav-logo">
+          <p class="myname">𝐢𝐚𝐦𝐧𝐚𝐦𝐫𝐚𝐭𝐚𝐚𝐰𝐚𝐬𝐭𝐡𝐢</p>
+        </a>
+      </div>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link home active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link contact">Contact</a>
+          </li>
+          <li class="nav-item">
+
+            <a onclick="window.open(`https://drive.google.com/file/d/1qiuclqjYOtdnfpS6hCn87U-DWukYdx_G/view?usp=share_link`)"
+              class="nav-link resume" id="resume-button-1" target="_blank"
+              href="./assets/img/Namrata-Awasthi-Resume.pdf" download>Resume</a>
+
+
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+
+
+
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid section" id="home">
+      <div class="home-data">
+        <h2 class="home-title">
+          Hi 👋,<br />I'am <span class="home-title-color" id="user-detail-name">Namrata</span><br />
+          Full-Stack Developer
+        </h2>
+
+
+        <a onclick="window.open(`https://drive.google.com/file/d/1qiuclqjYOtdnfpS6hCn87U-DWukYdx_G/view?usp=share_link`)"
+          target="_blank" class="button" id="resume-button-2" href="./assets/img/Namrata-Awasthi-Resume.pdf"
+          download>Resume</a>
+
+
+        <div class="home-social">
+          <a href="https://www.linkedin.com/in/namrata-awasthi-0014b4242/" target="_blank" class="home-social-icon"><i
+              class="bx bxl-linkedin"></i></a>
+          <a href="https://github.com/Namrata0407" target="_blank" class="home-social-icon"><i
+              class="bx bxl-github"></i></a>
+          <a href="mailto:namrataawasthi077@gmail.com" target="_blank" class="home-social-icon"><i
+              class='bx bx-envelope bx-tada bx-rotate-90'></i>
           </a>
         </div>
+      </div>
 
-        <div class="nav-menu" id="nav-menu" >
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#home"  class="nav-link home active">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link about">About</a>
-            </li>
-            <li class="nav-item">
-              <a href="#skills" class="nav-link skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a href="#projects" class="nav-link projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link contact">Contact</a>
-            </li>
-            <li class="nav-item">
-             
-               <a
-               onclick = "window.open(`https://drive.google.com/file/d/1qiuclqjYOtdnfpS6hCn87U-DWukYdx_G/view?usp=share_link`)"
-                class="nav-link resume"
-                id="resume-button-1"
-                target="_blank"
-               
-                href="./assets/img/Namrata-Awasthi-Resume.pdf" download>Resume</a>
-                
-               
-            </li>
-          </ul>
+      <div id="profile" style="border: 2 px solid rgb(128, 94, 0)">
+        <img class="portfolioImg home-img" src="https://avatars.githubusercontent.com/u/112812835?v=4"
+          alt="Namrata Profile" />
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+
+      <div class="about-container bd-grid">
+
+
+        <div style="text-align: center">
+          <h2 class="about-subtitle">I'm Namrata Awasthi</h2>
+          <p class="about-text" id="user-detail-intro">
+            Aspiring Full Stack Developer (MERN), with have a good knowledge of "Frontend" and "Backend", high
+            Adaptability to learn
+            and collaborate in a rapidly changing environment and
+            compositions, eager to obtain a challenging position Which will
+            help to expand learning and build skills.
+          </p>
+          <br />
+
+          <p>
+            Drop a mail @ namrataawasthi077@gmail.com
+            <i style="color: #4070f4; font-size: 1.2rem; cursor: pointer" class="bx bx-copy" id="copy"></i>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="skills-container bd-grid">
+        <div>
+          <h2 class="skills-card-name" class="skills-subtitle">Front-end Skills</h2>
+          <div class="skills-data ">
+            <div class="skills-names">
+              <i class="skills-card-img" class="bx bxl-html5 skills-icon"></i>
+              <span class="skills-card-name" class="skills-name">HTML5</span>
+            </div>
+            <!-- <div class="skills-bar skills-html"></div> -->
+            <!-- <div>
+                <span class="skills-percentage">75%</span>
+              </div> -->
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="skills-card-img" class="bx bxl-css3 skills-icon"></i>
+              <span class="skills-card-name" class="skills-name">CSS3</span>
+            </div>
+            <!-- <div class="skills-bar skills-css"></div> -->
+            <!-- <div>
+                <span class="skills-percentage">70%</span>
+              </div> -->
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="skills-card-img" class="bx bxl-javascript skills-icon"></i>
+              <span class="skills-card-name" class="skills-name">JAVASCRIPT</span>
+            </div>
+            <!-- <div class="skills-bar skills-js"></div> -->
+            <!-- <div>
+                <span class="skills-percentage">85%</span>
+              </div> -->
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="skills-card-img" class="bx bxl-react skills-icon"></i>
+              <span class="skills-card-name" class="skills-name">ReactJS</span>
+            </div>
+            <!-- <div class="skills-bar skills-react"></div> -->
+            <!-- <div>
+                <span class="skills-percentage">80%</span>
+              </div> -->
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="skills-card-img" class="bx bxl-redux skills-icon"></i>
+              <span class="skills-card-name" class="skills-name">Redux</span>
+            </div>
+            <!-- <div class="skills-bar skills-redux"></div> -->
+            <!-- <div>
+                <span class="skills-percentage">90%</span>
+              </div> -->
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="skills-card-img" class="bx bxl-redux skills-icon"></i>
+              <span class="skills-card-name" class="skills-name">React Native</span>
+            </div>
+            <!-- <div class="skills-bar skills-redux"></div> -->
+            <!-- <div>
+                <span class="skills-percentage">90%</span>
+              </div> -->
+          </div>
+          <div class="skills-data">
+            <div class="skills-names skills-card">
+              <img class="skills-icon skills-card-img" src="./assets/img/typescript.png" alt="" />
+              <span class="skills-name skills-card-name">TypeScript</span>
+            </div>
+            <!-- <div class="skills-bar skills-ts"></div>  -->
+            <!-- <div>
+                <span class="skills-percentage">70%</span>
+              </div>  -->
+          </div>
+        </div>
+        <div>
+          <h2 class="skills-card-name" class="skills-subtitle">Back-end Skills</h2>
+          <div class="skills-data">
+            <div class="skills-names skills-card">
+              <img class="skills-icon skills-card-img" src="./assets/img/express.png" alt="" />
+              <span class="skills-name skills-card-name">Express.js</span>
+            </div>
+
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="skills-card-img" class="bx bxl-nodejs skills-icon"></i>
+              <span class="skills-card-name" class="skills-name">Node.js</span>
+            </div>
+
+          </div>
+          <div class="skills-data">
+            <div class="skills-names skills-card">
+              <img class="skills-icon skills-card-img" src="./assets/img/mongodb.png" alt="" />
+              <span class="skills-name skills-card-name">MongoDB</span>
+            </div>
+
+          </div>
         </div>
 
-        <div class="nav-toggle" id="nav-toggle">
-          <i class="bx bx-menu"></i>
-        </div>
-      </nav>
-    </header>
+        <!-- <div>
+            <img src="assets/img/project3.jpg" alt="" class="skills-img" />
+          </div> -->
+      </div>
+    </section>
 
-
-
-
-    
-    <main class="l-main">
-      <!--===== HOME =====-->
-      <section class="home bd-grid section" id="home">
-        <div class="home-data">
-          <h2 class="home-title">
-            Hi 👋,<br />I'am <span class="home-title-color"  id="user-detail-name">Namrata</span><br />
-            Full-Stack Developer
-          </h2>
-
-       
-          <a
-          onclick = "window.open(`https://drive.google.com/file/d/1qiuclqjYOtdnfpS6hCn87U-DWukYdx_G/view?usp=share_link`)"
-          target="_blank"
-          class="button"
-          id="resume-button-2"
-         
-          href="./assets/img/Namrata-Awasthi-Resume.pdf" download>Resume</a>
-          
-
-          <div class="home-social">
-            <a
-              href="https://www.linkedin.com/in/namrata-awasthi-0014b4242/"
-              target="_blank"
-              class="home-social-icon"
-              ><i class="bx bxl-linkedin"></i
-            ></a>
-            <a
-              href="https://github.com/Namrata0407"
-              target="_blank"
-              class="home-social-icon"
-              ><i class="bx bxl-github"></i
-            ></a>
-            <a
-              href="mailto:namrataawasthi077@gmail.com"
-              target="_blank"
-              class="home-social-icon"
-              ><i class='bx bx-envelope bx-tada bx-rotate-90' ></i>
+    <!--===== Projects =====-->
+    <section class="projects section" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-container">
+        <div class="project-img project-card">
+          <img src="./assets/img/visionai.png" alt="Domino.co.in" />
+          <p class="project-title">VisionAI</p>
+          <p class="project-subtitle project-description">
+            VisionAI is a cutting-edge web application that combines facial recognition, emotion detection, and voice
+            interaction to create an immersive AI assistant experience. Built with the MERN stack and featuring a
+            stunning futuristic UI inspired by sci-fi interfaces.
+            <!-- <br /> -->
+            <!-- A collaborative project, built in 5 days by a team of 5
+              developers. -->
+            <!-- <br /> -->
+          <p style="margin-top: -50px;" class="project-tech-stack tech-stack-style"> React | NodeJs | ExpressJs |
+            MongoDB | Speech-recognition | search-api | Audio-api | Face-api | Framer-motion | TensorFlow</p>
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/Namrata0407/VisionAI_Frontend" target="_blank"
+              class="small-btn button project-github-link">
+              Code<i class="bx bxl-github"></i>
+            </a>
+            <a href="https://visionai-chi.vercel.app/" target="_blank" class="small-btn button project-deployed-link">
+              Live<i class="bx bx-link-external"></i>
             </a>
           </div>
         </div>
 
-        <div id="profile" style="border: 2 px solid rgb(128, 94, 0)">
-          <img
-            class="portfolioImg home-img"
-            
-            src="https://avatars.githubusercontent.com/u/112812835?v=4"
-            alt="Namrata Profile"
-          />
-        </div>
-      </section>
-
-      <!--===== ABOUT =====-->
-      <section class="about section" id="about">
-        <h2 class="section-title">About</h2>
-
-        <div class="about-container bd-grid">
-        
-
-          <div style="text-align: center">
-            <h2 class="about-subtitle">I'm Namrata Awasthi</h2>
-            <p class="about-text"  id="user-detail-intro">
-              Aspiring Full Stack Developer (MERN), with have a good knowledge of "Frontend" and "Backend", high Adaptability to learn
-              and collaborate in a rapidly changing environment and
-              compositions, eager to obtain a challenging position Which will
-              help to expand learning and build skills.
-            </p>
-            <br />
-            
-            <p>
-              Drop a mail @ namrataawasthi077@gmail.com
-              <i
-                style="color: #4070f4; font-size: 1.2rem; cursor: pointer"
-                class="bx bx-copy"
-                id="copy"
-              ></i>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!--===== SKILLS =====-->
-      <section class="skills section" id="skills">
-        <h2 class="section-title">Skills</h2>
-
-        <div class="skills-container bd-grid">
-          <div>
-            <h2  class="skills-card-name" class="skills-subtitle">Front-end Skills</h2>
-            <div  class="skills-data " >
-              <div class="skills-names">
-                <i class="skills-card-img" class="bx bxl-html5 skills-icon"></i>
-                <span  class="skills-card-name" class="skills-name">HTML5</span>
-              </div>
-              <!-- <div class="skills-bar skills-html"></div> -->
-              <!-- <div>
-                <span class="skills-percentage">75%</span>
-              </div> -->
-            </div>
-            <div class="skills-data">
-              <div class="skills-names">
-                <i class="skills-card-img" class="bx bxl-css3 skills-icon"></i>
-                <span  class="skills-card-name" class="skills-name">CSS3</span>
-              </div>
-              <!-- <div class="skills-bar skills-css"></div> -->
-              <!-- <div>
-                <span class="skills-percentage">70%</span>
-              </div> -->
-            </div>
-            <div class="skills-data">
-              <div class="skills-names">
-                <i class="skills-card-img" class="bx bxl-javascript skills-icon"></i>
-                <span  class="skills-card-name" class="skills-name">JAVASCRIPT</span>
-              </div>
-              <!-- <div class="skills-bar skills-js"></div> -->
-              <!-- <div>
-                <span class="skills-percentage">85%</span>
-              </div> -->
-            </div>
-            <div class="skills-data">
-              <div class="skills-names">
-                <i class="skills-card-img" class="bx bxl-react skills-icon"></i>
-                <span  class="skills-card-name" class="skills-name">React</span>
-              </div>
-              <!-- <div class="skills-bar skills-react"></div> -->
-              <!-- <div>
-                <span class="skills-percentage">80%</span>
-              </div> -->
-            </div>
-            <div class="skills-data">
-              <div class="skills-names">
-                <i class="skills-card-img" class="bx bxl-redux skills-icon"></i>
-                <span  class="skills-card-name" class="skills-name">Redux</span>
-              </div>
-              <!-- <div class="skills-bar skills-redux"></div> -->
-              <!-- <div>
-                <span class="skills-percentage">90%</span>
-              </div> -->
-            </div>
-             <div class="skills-data">
-             <div class="skills-names skills-card">
-                <img
-                  class="skills-icon skills-card-img"
-                  
-                  src="./assets/img/typescript.png"
-                  alt=""
-                />
-                <span  class="skills-name skills-card-name">TypeScript</span>
-              </div> 
-             <!-- <div class="skills-bar skills-ts"></div>  -->
-            <!-- <div>
-                <span class="skills-percentage">70%</span>
-              </div>  -->
-            </div> 
-          </div>
-          <div>
-            <h2  class="skills-card-name" class="skills-subtitle">Back-end Skills</h2>
-            <div class="skills-data">
-              <div class="skills-names skills-card">
-                <img 
-                  class="skills-icon skills-card-img"
-                 
-                  src="./assets/img/express.png"
-                  alt=""
-                />
-                <span  class="skills-name skills-card-name">Express.js</span>
-              </div>
-              
-            </div>
-            <div class="skills-data">
-              <div class="skills-names">
-                <i class="skills-card-img" class="bx bxl-nodejs skills-icon"></i>
-                <span  class="skills-card-name" class="skills-name">Node.js</span>
-              </div>
-             
-            </div>
-            <div class="skills-data">
-              <div class="skills-names skills-card">
-                <img 
-                  class="skills-icon skills-card-img"
-                  
-                  src="./assets/img/mongodb.png"
-                  alt=""
-                />
-                <span  class="skills-name skills-card-name">MongoDB</span>
-              </div>
-             
-            </div>
-          </div>
-
-          <!-- <div>
-            <img src="assets/img/project3.jpg" alt="" class="skills-img" />
-          </div> -->
-        </div>
-      </section>
-
-      <!--===== Projects =====-->
-      <section class="projects section" id="projects" >
-        <h2 class="section-title">Projects</h2>
-
-        <div class="project-container" >
-          <div class="project-img project-card" >
-            <img src="./assets/img/project1.png" alt="Domino.co.in" />
-            <p class="project-title">Amazing Vehicle Parts</p>
-            <p class="project-subtitle project-description"  >
-              It is an E-commerce website, that provides variety of Vehicle parts, we have all the globes, batteries and auto electrical parts you need for your car.
-              where you can  browse our selection of batteries, globes and other lighting accessories below and order online with our click and collect service.<br />
-              <!-- <br /> -->
-              <!-- A collaborative project, built in 5 days by a team of 5
+        <div class="project-img project-card">
+          <img src="./assets/img/medicare.png" alt="Domino.co.in" />
+          <p class="project-title">MediCare</p>
+          <p class="project-subtitle project-description">
+            It is an eCommerce website where you can buy all kind of drugs and medicines
+            <!-- <br /> -->
+            <!-- A collaborative project, built in 5 days by a team of 5
               developers. -->
-              <!-- <br /> -->
-              <p style="margin-top: -50px;" class="project-tech-stack tech-stack-style"> React | Chackra UI | Json | Git</p>
-            </p>
-            <div class="project-btns" >
-              <a
-                href="https://github.com/Namrata0407/tropical-angle-5917/tree/main/amazing-vehicle-parts"
-                target="_blank"
-                class="small-btn button project-github-link"
-                
-              >
-                Code<i class="bx bxl-github"></i>
-              </a>
-              <a
-                href="https://amazing-auto-parts.netlify.app/"
-                target="_blank"
-                class="small-btn button project-deployed-link"
-                
-              >
-                Live<i class="bx bx-link-external"></i>
-              </a>
-            </div>
+            <!-- <br /> -->
+          <p style="margin-top: -50px;" class="project-tech-stack tech-stack-style"> React | Redux | Redux-thunk | NodeJs | ExpressJs |
+            JWT</p>
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/Namrata0407/Medicare_frontend" target="_blank"
+              class="small-btn button project-github-link">
+              Code<i class="bx bxl-github"></i>
+            </a>
+            <a href="https://frontend-mu-wine.vercel.app/" target="_blank" class="small-btn button project-deployed-link">
+              Live<i class="bx bx-link-external"></i>
+            </a>
           </div>
+        </div>
 
-          <div class="project-img project-card" >
-            <img src="./assets/img/project4.png" alt="advancedautoparts.com" />
-            <p class="project-title">MacMatch</p>
-            <p class="project-subtitle project-description" >
-              It is an e-commerce website which provides various types of electronic products with online services.
-              <br />
-              <br />
-              A collaborative project built by a team of 4 members, executed in 4 days.
-              <!-- <br /> -->
-              <!-- <br /> -->
-              <p style="margin-bottom: 70px;" class="project-tech-stack tech-stack-style">  React | Redux | Chakra-UI | Git</p>
-             
-            </p>
-            <div class="project-btns">
-              <a
-                href="https://github.com/Namrata0407/murky-pan-2202/tree/main/project"
-                target="_blank"
-                class="small-btn button project-github-link"
-                
-              >
-                Code<i class="bx bxl-github"></i>
-              </a>
-              <a
-                href="https://dapper-brigadeiros-9419df.netlify.app/"
-                target="_blank"
-                class="small-btn button project-deployed-link"
-               
-              >
-                Live<i class="bx bx-link-external"></i>
-              </a>
-            </div>
+        <div class="project-img project-card">
+          <img src="./assets/img/project1.png" alt="Domino.co.in" />
+          <p class="project-title">Amazing Vehicle Parts</p>
+          <p class="project-subtitle project-description">
+            It is an E-commerce website, that provides variety of Vehicle parts, we have all the globes, batteries and
+            auto electrical parts you need for your car.
+            where you can browse our selection of batteries, globes and other lighting accessories below and order
+            online with our click and collect service.<br />
+            <!-- <br /> -->
+            <!-- A collaborative project, built in 5 days by a team of 5
+              developers. -->
+            <!-- <br /> -->
+          <p style="margin-top: -50px;" class="project-tech-stack tech-stack-style"> React | Chackra UI | Json | Git</p>
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/Namrata0407/tropical-angle-5917/tree/main/amazing-vehicle-parts" target="_blank"
+              class="small-btn button project-github-link">
+              Code<i class="bx bxl-github"></i>
+            </a>
+            <a href="https://amazing-auto-parts.netlify.app/" target="_blank"
+              class="small-btn button project-deployed-link">
+              Live<i class="bx bx-link-external"></i>
+            </a>
           </div>
+        </div>
 
-          <div class="project-img project-card" >
-            <img src="./assets/img/project2.png" alt="advancedautoparts.com" />
-            <p class="project-title">Cosmetica</p>
-            <p class="project-subtitle project-description" >
-             It is an E-commerce website that designed to give customers an overview of the range of products, services, 
-             and beauty experiences that the website offers. User can buy any Cosmetic product onlilne.
-              <br />
-              <br />
-              A collaborative project built by a team of 4 members, executed in 4 days.
-              <!-- <br /> -->
-              <!-- <br /> -->
-              <p  class="project-tech-stack tech-stack-style">  HTML | CSS | Javascript | Git</p>
-             
-            </p>
-            <div class="project-btns">
-              <a
-                href="https://github.com/Itsmearun1/vast-reward-2791"
-                target="_blank"
-                class="small-btn button project-github-link"
-                
-              >
-                Code<i class="bx bxl-github"></i>
-              </a>
-              <a
-                href="https://astonishing-marigold-d26f8b.netlify.app/"
-                target="_blank"
-                class="small-btn button project-deployed-link"
-               
-              >
-                Live<i class="bx bx-link-external"></i>
-              </a>
-            </div>
+        <div class="project-img project-card">
+          <img src="./assets/img/project4.png" alt="advancedautoparts.com" />
+          <p class="project-title">MacMatch</p>
+          <p class="project-subtitle project-description">
+            It is an e-commerce website which provides various types of electronic products with online services.
+            <br />
+            <br />
+            A collaborative project built by a team of 4 members, executed in 4 days.
+            <!-- <br /> -->
+            <!-- <br /> -->
+          <p style="margin-bottom: 70px;" class="project-tech-stack tech-stack-style"> React | Redux | Chakra-UI | Git
+          </p>
+
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/Namrata0407/murky-pan-2202/tree/main/project" target="_blank"
+              class="small-btn button project-github-link">
+              Code<i class="bx bxl-github"></i>
+            </a>
+            <a href="https://dapper-brigadeiros-9419df.netlify.app/" target="_blank"
+              class="small-btn button project-deployed-link">
+              Live<i class="bx bx-link-external"></i>
+            </a>
           </div>
+        </div>
 
-          <div class="project-img project-card" >
-            <img src="./assets/img/project3.png" alt="Domino.co.in" />
-            <p class="project-title">Fantasy Glow</p>
-            <p class="project-subtitle project-description"  >
-              It is an E-commerce website, fastest growing online retail store for the day to day and special occasion need of the Makeup, Skin care, Hair care, Personal care, Mom and Baby care, Fragrance and Ayurveda products. We at Fantasy Glow are committed to provide genuine products on fair price to our customers. We bring worlds premium brands and products for you on a single platform.<br />
-              <!-- <br /> 
+        <div class="project-img project-card">
+          <img src="./assets/img/project2.png" alt="advancedautoparts.com" />
+          <p class="project-title">Cosmetica</p>
+          <p class="project-subtitle project-description">
+            It is an E-commerce website that designed to give customers an overview of the range of products, services,
+            and beauty experiences that the website offers. User can buy any Cosmetic product onlilne.
+            <br />
+            <br />
+            A collaborative project built by a team of 4 members, executed in 4 days.
+            <!-- <br /> -->
+            <!-- <br /> -->
+          <p class="project-tech-stack tech-stack-style"> HTML | CSS | Javascript | Git</p>
+
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/Itsmearun1/vast-reward-2791" target="_blank"
+              class="small-btn button project-github-link">
+              Code<i class="bx bxl-github"></i>
+            </a>
+            <a href="https://astonishing-marigold-d26f8b.netlify.app/" target="_blank"
+              class="small-btn button project-deployed-link">
+              Live<i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img project-card">
+          <img src="./assets/img/project3.png" alt="Domino.co.in" />
+          <p class="project-title">Fantasy Glow</p>
+          <p class="project-subtitle project-description">
+            It is an E-commerce website, fastest growing online retail store for the day to day and special occasion
+            need of the Makeup, Skin care, Hair care, Personal care, Mom and Baby care, Fragrance and Ayurveda products.
+            We at Fantasy Glow are committed to provide genuine products on fair price to our customers. We bring worlds
+            premium brands and products for you on a single platform.<br />
+            <!-- <br /> 
               A collaborative project, built in 5 days by a team of 5
               developers.
               <br />  -->
-              <p style="margin-bottom: 70px;" class="project-tech-stack tech-stack-style"> HTML | CSS | Javascript | Git</p>
-            </p>
-            <div class="project-btns" >
-              <a
-                href="https://github.com/Namrata0407/flowery-value-5981"
-                target="_blank"
-                class="small-btn button project-github-link"
-                
-              >
-                Code<i class="bx bxl-github"></i>
-              </a>
-              <a
-                href="https://euphonious-kangaroo-7a252f.netlify.app/"
-                target="_blank"
-                class="small-btn button project-deployed-link"
-                
-              >
-                Live<i class="bx bx-link-external"></i>
-              </a>
-            </div>
+          <p style="margin-bottom: 70px;" class="project-tech-stack tech-stack-style"> HTML | CSS | Javascript | Git</p>
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/Namrata0407/flowery-value-5981" target="_blank"
+              class="small-btn button project-github-link">
+              Code<i class="bx bxl-github"></i>
+            </a>
+            <a href="https://euphonious-kangaroo-7a252f.netlify.app/" target="_blank"
+              class="small-btn button project-deployed-link">
+              Live<i class="bx bx-link-external"></i>
+            </a>
           </div>
         </div>
-      </section>
-
-     
-    </main>
+      </div>
+    </section>
 
 
+  </main>
 
-<div class="github-realtive-cards">
-  <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=namrata0407&theme=default&hide_border=false&include_all_commits=false&count_private=false" alt="fgfy">
 
-  <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=namrata0407&theme=city_light&hide_border=false" alt="fdfdf">
 
-<img  id="github-top-langs"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=namrata0407&theme=default&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="hgghgh">
-</div>
-   
+  <div class="github-realtive-cards">
+    <img id="github-stats-card"
+      src="https://github-readme-stats.vercel.app/api?username=namrata0407&theme=default&hide_border=false&include_all_commits=false&count_private=false"
+      alt="fgfy">
 
-<img class="react-activity-calendar" src="https://ghchart.rshah.org/Namrata0407" alt="namrata-github-calender">
+    <img id="github-streak-stats"
+      src="https://github-readme-streak-stats.herokuapp.com/?user=namrata0407&theme=city_light&hide_border=false"
+      alt="fdfdf">
 
- <!-- <div class="react-activity-calendar calendar">
+    <img id="github-top-langs"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=namrata0407&theme=default&hide_border=false&include_all_commits=false&count_private=false&layout=compact"
+      alt="hgghgh">
+  </div>
+
+
+  <img class="react-activity-calendar" src="https://ghchart.rshah.org/Namrata0407" alt="namrata-github-calender">
+
+  <!-- <div class="react-activity-calendar calendar">
 
  </div> -->
 
 
 
-    <!--===== FOOTER + CONTACT=====-->
-    <footer class="footer section" id="contact">
-      <h2 class="section-title">Get in touch</h2>
-      <p class="footer-title">Namrata Awasthi</p>
-      <div class="footer-social">
-        <a
-          href="https://www.linkedin.com/in/namrata-awasthi-0014b4242/"
-          target="_blank"
-          class="footer-icon"
-          id="contact-linkedin"
-          ><i class="bx bxl-linkedin">
-            <br />
-            LinkedIn</i
-          ></a
-        >
-        
-        <a
-          href="https://github.com/Namrata0407"
-          target="_blank"
-          class="footer-icon"
-          id="contact-github"
-          ><i class="bx bxl-github">
-            <br />
-            Github</i
-          ></a
-        >
-        <a
-          href="mailto:namrataawasthi077@gmail.com"
-          target="_blank"
-          class="footer-icon"
-          id="contact-email"
-          ><i class="bx bx-mail-send">
-            <br />
-            E-mail</i
-          ></a
-        >
-        <a href="tel:+919424416817" target="_blank" class="footer-icon"  id="contact-phone"
-          ><i class="bx bx-phone">
-            <br />
-            Phone</i
-          ></a
-        >
-
-        <a
-          href="https://twitter.com/NamrataAwasthii"
-          target="_blank"
-          class="footer-icon"
-          ><i class="bx bxl-twitter">
-            <br />
-            Twitter</i
-          ></a
-        >
-
-        <a
-        href="https://in.pinterest.com/namrataawasthi077/"
-        target="_blank"
-        class="footer-icon"
-        ><i class="bx bxl-pinterest">
+  <!--===== FOOTER + CONTACT=====-->
+  <footer class="footer section" id="contact">
+    <h2 class="section-title">Get in touch</h2>
+    <p class="footer-title">Namrata Awasthi</p>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/namrata-awasthi-0014b4242/" target="_blank" class="footer-icon"
+        id="contact-linkedin"><i class="bx bxl-linkedin">
           <br />
-          Pinterest</i
-        ></a
-      > 
-      </div>
-    
-      <p>Thankyou</p>
-    </footer>
+          LinkedIn</i></a>
+
+      <a href="https://github.com/Namrata0407" target="_blank" class="footer-icon" id="contact-github"><i
+          class="bx bxl-github">
+          <br />
+          Github</i></a>
+      <a href="mailto:namrataawasthi077@gmail.com" target="_blank" class="footer-icon" id="contact-email"><i
+          class="bx bx-mail-send">
+          <br />
+          E-mail</i></a>
+      <a href="tel:+919424416817" target="_blank" class="footer-icon" id="contact-phone"><i class="bx bx-phone">
+          <br />
+          Phone</i></a>
+
+      <a href="https://twitter.com/NamrataAwasthii" target="_blank" class="footer-icon"><i class="bx bxl-twitter">
+          <br />
+          Twitter</i></a>
+
+      <a href="https://in.pinterest.com/namrataawasthi077/" target="_blank" class="footer-icon"><i
+          class="bx bxl-pinterest">
+          <br />
+          Pinterest</i></a>
+    </div>
+
+    <p>Thankyou</p>
+  </footer>
 
 
-    <!-- <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  <!-- <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
     <link
       rel="stylesheet"
       href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
@@ -500,7 +462,8 @@
    
      -->
 
-    <!--===== MAIN JS =====-->
-    <script src="assets/js/main.js"></script>
-  </body>
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
