@@ -84,4 +84,45 @@ const showMenu = ( toggleId, navId ) => {
   
   /*SCROLL CONTACT*/
   // sr.reveal(".contact-input", { interval: 200 });
+
+/*===== APP SLIDER =====*/
+document.addEventListener('DOMContentLoaded', function() {
+  const slides = document.querySelectorAll('.app-slide');
+  const dots = document.querySelectorAll('.dot');
+  let currentSlide = 0;
+
+  // Auto slide function
+  function nextSlide() {
+    slides[currentSlide].classList.remove('active');
+    dots[currentSlide].classList.remove('active');
+    
+    currentSlide = (currentSlide + 1) % slides.length;
+    
+    slides[currentSlide].classList.add('active');
+    dots[currentSlide].classList.add('active');
+  }
+
+  // Dot click function
+  function goToSlide(slideIndex) {
+    slides[currentSlide].classList.remove('active');
+    dots[currentSlide].classList.remove('active');
+    
+    currentSlide = slideIndex;
+    
+    slides[currentSlide].classList.add('active');
+    dots[currentSlide].classList.add('active');
+  }
+
+  // Add event listeners to dots
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => goToSlide(index));
+  });
+
+  // Auto-slide every 3 seconds
+  setInterval(nextSlide, 3000);
+
+  /*SCROLL APP SHOWCASE*/
+  sr.reveal(".app-description", { origin: 'left' });
+  sr.reveal(".phone-mockup", { origin: 'right', delay: 200 });
+});
   
